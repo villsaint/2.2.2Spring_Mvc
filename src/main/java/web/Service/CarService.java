@@ -24,7 +24,6 @@ public class CarService {
         carList.add(new Car("Lada", "Kalina", 350_000));
         carList.add(new Car("BMW", "x5", 3_500_000));
         carList.add(new Car("Mitsubishi", "Lancer", 2_000_000));
-
-        return carList;
+        return carList.subList(0,size);
     }
 }
